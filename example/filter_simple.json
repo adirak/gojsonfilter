@@ -1,0 +1,66 @@
+[
+    {
+        "name": "name",
+        "type": "string",
+        "default": "",
+        "validated":true,
+        "required":false,
+        "regexp":"",
+        "min":5,
+        "max":10
+    },
+    {
+        "name": "date",
+        "type": "string",
+        "default": "2022-08-12",
+        "validated":true,
+        "required":false,
+        "regexp":"((\\d{4})-(0[13578]|10|12)-(0[1-9]|[12][0-9]|3[01]))",
+        "min":10,
+        "max":10
+    },
+    {
+        "name": "updated",
+        "type": "boolean",
+        "default": "true",
+        "validated":true,
+        "required":true
+    },
+    {
+        "name": "intVal",
+        "type": "integer",
+        "default": "1000",
+        "validated":true,
+        "required":false,
+        "min":100,
+        "max":2000
+    },
+    {
+        "name": "decVal",
+        "type": "decimal",
+        "default": "99.99",
+        "validated":true,
+        "required":false,
+        "min":10.5,
+        "max":999.99
+    },
+    {
+        "name": "id",
+        "type": "string",
+        "default": "9999999",
+        "validated":true,
+        "required":true,
+        "min":0,
+        "max":0
+    },
+    {
+        "name": "id2",
+        "type": "integer",
+        "default": "",
+        "validated":true,
+        "required":false,
+        "min":0,
+        "max":0
+    }
+    
+]

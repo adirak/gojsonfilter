@@ -1,0 +1,384 @@
+[
+    {
+        "name": "data",
+        "type": "map",
+        "validated": true,
+        "required": true,
+        "min": 0,
+        "max": 0,
+        "children": [
+            {
+                "name": "result",
+                "type": "map",
+                "validated": true,
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "children": [
+                    {
+                        "name": "createdTime",
+                        "type": "integer",
+                        "default": "",
+                        "validated": true,
+                        "required": true,
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "name": "createdUser",
+                        "type": "string",
+                        "default": "",
+                        "validated": true,
+                        "required": true,
+                        "min": 1,
+                        "max": 10,
+                        "regexp": ""
+                    },
+                    {
+                        "name": "data",
+                        "type": "array",
+                        "validated": true,
+                        "required": true,
+                        "min": 0,
+                        "max": 0,
+                        "children": [
+                            {
+                                "name": "[0]",
+                                "type": "map",
+                                "validated": true,
+                                "required": true,
+                                "min": 0,
+                                "max": 0,
+                                "children": [
+                                    {
+                                        "name": "desc",
+                                        "type": "string",
+                                        "default": "",
+                                        "validated": true,
+                                        "required": false,
+                                        "min": 0,
+                                        "max": 0,
+                                        "regexp": ""
+                                    },
+                                    {
+                                        "name": "id",
+                                        "type": "string",
+                                        "default": "",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 15,
+                                        "max": 30,
+                                        "regexp": ""
+                                    },
+                                    {
+                                        "name": "name",
+                                        "type": "string",
+                                        "default": "",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "regexp": ""
+                                    },
+                                    {
+                                        "name": "rules",
+                                        "type": "array",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "all": true
+                                    },
+                                    {
+                                        "name": "type",
+                                        "type": "string",
+                                        "validated": true,
+                                        "required": false,
+                                        "min": 0,
+                                        "max": 0,
+                                        "regexp": ""
+                                    },
+                                    {
+                                        "name": "wires",
+                                        "type": "array",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "all": true
+                                    },
+                                    {
+                                        "name": "input",
+                                        "type": "array",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "all": true
+                                    },
+                                    {
+                                        "name": "output",
+                                        "type": "array",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "all": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "result2",
+                "type": "map",
+                "validated": true,
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "children": [
+                    {
+                        "name": "createdTime",
+                        "type": "integer",
+                        "default": "",
+                        "validated": true,
+                        "required": true,
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "name": "createdUser",
+                        "type": "string",
+                        "default": "",
+                        "validated": true,
+                        "required": true,
+                        "min": 1,
+                        "max": 10,
+                        "regexp": ""
+                    },
+                    {
+                        "name": "data",
+                        "type": "array",
+                        "validated": true,
+                        "required": true,
+                        "min": 0,
+                        "max": 0,
+                        "children": [
+                            {
+                                "name": "[0]",
+                                "type": "map",
+                                "validated": true,
+                                "required": true,
+                                "min": 0,
+                                "max": 0,
+                                "children": [
+                                    {
+                                        "name": "desc",
+                                        "type": "string",
+                                        "default": "",
+                                        "validated": true,
+                                        "required": false,
+                                        "min": 0,
+                                        "max": 0,
+                                        "regexp": ""
+                                    },
+                                    {
+                                        "name": "id",
+                                        "type": "string",
+                                        "default": "",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 15,
+                                        "max": 30,
+                                        "regexp": ""
+                                    },
+                                    {
+                                        "name": "name",
+                                        "type": "string",
+                                        "default": "",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "regexp": ""
+                                    },
+                                    {
+                                        "name": "rules",
+                                        "type": "array",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "all": true
+                                    },
+                                    {
+                                        "name": "type",
+                                        "type": "string",
+                                        "validated": true,
+                                        "required": false,
+                                        "min": 0,
+                                        "max": 0,
+                                        "regexp": ""
+                                    },
+                                    {
+                                        "name": "wires",
+                                        "type": "array",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "all": true
+                                    },
+                                    {
+                                        "name": "input",
+                                        "type": "array",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "all": true
+                                    },
+                                    {
+                                        "name": "output",
+                                        "type": "array",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "all": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "result3",
+                "type": "map",
+                "validated": true,
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "children": [
+                    {
+                        "name": "createdTime",
+                        "type": "integer",
+                        "default": "",
+                        "validated": true,
+                        "required": true,
+                        "min": 0,
+                        "max": 0
+                    },
+                    {
+                        "name": "createdUser",
+                        "type": "string",
+                        "default": "",
+                        "validated": true,
+                        "required": true,
+                        "min": 1,
+                        "max": 10,
+                        "regexp": ""
+                    },
+                    {
+                        "name": "data",
+                        "type": "array",
+                        "validated": true,
+                        "required": true,
+                        "min": 0,
+                        "max": 0,
+                        "children": [
+                            {
+                                "name": "[0]",
+                                "type": "map",
+                                "validated": true,
+                                "required": true,
+                                "min": 0,
+                                "max": 0,
+                                "children": [
+                                    {
+                                        "name": "desc",
+                                        "type": "string",
+                                        "default": "",
+                                        "validated": true,
+                                        "required": false,
+                                        "min": 0,
+                                        "max": 0,
+                                        "regexp": ""
+                                    },
+                                    {
+                                        "name": "id",
+                                        "type": "string",
+                                        "default": "",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 15,
+                                        "max": 30,
+                                        "regexp": ""
+                                    },
+                                    {
+                                        "name": "name",
+                                        "type": "string",
+                                        "default": "",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "regexp": ""
+                                    },
+                                    {
+                                        "name": "rules",
+                                        "type": "array",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "all": true
+                                    },
+                                    {
+                                        "name": "type",
+                                        "type": "string",
+                                        "validated": true,
+                                        "required": false,
+                                        "min": 0,
+                                        "max": 0,
+                                        "regexp": ""
+                                    },
+                                    {
+                                        "name": "wires",
+                                        "type": "array",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "all": true
+                                    },
+                                    {
+                                        "name": "input",
+                                        "type": "array",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "all": true
+                                    },
+                                    {
+                                        "name": "output",
+                                        "type": "array",
+                                        "validated": true,
+                                        "required": true,
+                                        "min": 0,
+                                        "max": 0,
+                                        "all": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

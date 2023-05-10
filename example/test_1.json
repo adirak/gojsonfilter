@@ -1,0 +1,56 @@
+{
+    "dataBus": {
+        "fullName": "Sirimahayarn-supote",
+        "list": [
+            {
+                "a": "A"
+            },
+            {
+                "a": "B"
+            }
+        ]
+    },
+    "filter": [
+        {
+            "default": "",
+            "max": 0,
+            "min": 0,
+            "name": "fullName",
+            "regexp": "",
+            "required": true,
+            "type": "string",
+            "validated": true
+        },
+        {
+            "all": false,
+            "name": "list",
+            "required": true,
+            "type": "array",
+            "validated": true,
+            "min": 0,
+            "max": 0,
+            "children": [
+                {
+                    "name": "[0]",
+                    "type": "map",
+                    "validated": true,
+                    "required": true,
+                    "min": 0,
+                    "max": 0,
+                    "children": [
+                        {
+                            "name": "a",
+                            "type": "string",
+                            "default": "",
+                            "validated": true,
+                            "required": false,
+                            "min": 0,
+                            "max": 0,
+                            "regexp": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
