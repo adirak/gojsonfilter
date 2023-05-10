@@ -1,12 +1,19 @@
 {
     "dataBus": {
+        "firstName":"Supote",
+        "lastName":"Sirimahayarn",
         "fullName": "Sirimahayarn-supote",
+        "age": 42,
         "list": [
             {
-                "a": "A"
+                "a": "A",
+                "b": "B",
+                "c": "C"
             },
             {
-                "a": "B"
+                "a": "AA",
+                "b": "BB",
+                "c": "CC"
             }
         ]
     },
